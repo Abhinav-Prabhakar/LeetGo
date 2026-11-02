@@ -1,3 +1,5 @@
-discord.py
-python-dotenv
-requests
+discord.py>=2.5,<3
+aiohttp>=3.9,<4
+aiosqlite>=0.20,<1
+pydantic>=2.7,<3
+pydantic-settings>=2.3,<3

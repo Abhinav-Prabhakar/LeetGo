@@ -1,0 +1,72 @@
+name: Bug report
+description: Something is broken or behaves unexpectedly.
+title: "[Bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please remove tokens, usernames and
+        other private data from logs before pasting them.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug, including the exact command you ran.
+      placeholder: "Running /stats returned ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Link account with /set-username ...
+        2. Run /leaderboard scope: My cohort
+        3. See error
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: LeetGo version / commit
+      placeholder: "3.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: deployment
+    attributes:
+      label: How are you running LeetGo?
+      options:
+        - Local (python -m leetgo)
+        - Docker
+        - Docker Compose
+        - Other / cloud
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      placeholder: "3.13.2"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Include the reference ID shown in Discord for unexpected errors.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues first.
+          required: true
+        - label: I removed secrets from this report.
+          required: true

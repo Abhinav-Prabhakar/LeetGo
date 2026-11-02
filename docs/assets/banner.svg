@@ -1,0 +1,156 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LeetGo — Code daily. Grow together.</title>
+  <desc id="desc">A dark banner with the LeetGo wordmark, a Discord-style stats card, and LeetCode orange accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060910"/>
+      <stop offset="0.55" stop-color="#0A111E"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <radialGradient id="glowOrange" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1050 130) rotate(125) scale(430 360)">
+      <stop stop-color="#FFA116" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFA116" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(650 390) rotate(-90) scale(420 240)">
+      <stop stop-color="#3B82F6" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="72" y1="300" x2="620" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFC24B"/>
+      <stop offset="0.55" stop-color="#FFA116"/>
+      <stop offset="1" stop-color="#FF6B35"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="72" y1="74" x2="128" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFC24B"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <linearGradient id="card" x1="790" y1="80" x2="1170" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#161D2B"/>
+      <stop offset="1" stop-color="#0E1420"/>
+    </linearGradient>
+    <linearGradient id="barEasy" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#3FB950"/>
+      <stop offset="1" stop-color="#7EE787"/>
+    </linearGradient>
+    <linearGradient id="barMedium" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#D29922"/>
+      <stop offset="1" stop-color="#FFC24B"/>
+    </linearGradient>
+    <linearGradient id="barHard" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#F85149"/>
+      <stop offset="1" stop-color="#FF7B72"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#1B2638" stroke-opacity="0.42" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="26" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1280" height="420" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="420" fill="url(#bg)"/>
+    <rect width="1280" height="420" fill="url(#grid)"/>
+    <rect width="1280" height="420" fill="url(#glowOrange)"/>
+    <rect width="1280" height="420" fill="url(#glowBlue)"/>
+    <circle cx="690" cy="430" r="180" fill="#1D4ED8" fill-opacity="0.10" filter="url(#soft)"/>
+
+    <!-- subtle top highlight -->
+    <path d="M28 1H1252" stroke="url(#accent)" stroke-opacity="0.55" stroke-width="1"/>
+
+    <!-- logo mark -->
+    <rect x="72" y="66" width="58" height="58" rx="17" fill="url(#mark)"/>
+    <path d="M96 84L88 95L96 106" stroke="#0A0F18" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M108 84L116 95L108 106" stroke="#0A0F18" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M105 81L99 109" stroke="#FFF3D6" stroke-width="4.5" stroke-linecap="round"/>
+
+    <text x="146" y="108" fill="#F4F7FB" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="800" letter-spacing="-1.4">LeetGo</text>
+    <text x="147" y="128" fill="#6F819C" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" letter-spacing="3.2">DISCORD × LEETCODE</text>
+
+    <!-- headline -->
+    <text x="72" y="242" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="62" font-weight="800" letter-spacing="-2.6">Code daily.</text>
+    <text x="72" y="306" fill="url(#accent)" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="62" font-weight="800" letter-spacing="-2.6">Grow together.</text>
+
+    <text x="74" y="346" fill="#91A3BC" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="500">Stats, cohorts, roadmaps, goals and reminders — in one calm bot.</text>
+
+    <!-- mini feature pills -->
+    <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600">
+      <rect x="72" y="368" width="102" height="26" rx="13" fill="#111A29" stroke="#22314A"/>
+      <text x="86" y="385" fill="#9FB2CC">⚡ async</text>
+      <rect x="182" y="368" width="112" height="26" rx="13" fill="#111A29" stroke="#22314A"/>
+      <text x="196" y="385" fill="#9FB2CC">🗄 SQLite WAL</text>
+      <rect x="302" y="368" width="98" height="26" rx="13" fill="#111A29" stroke="#22314A"/>
+      <text x="316" y="385" fill="#9FB2CC">🐳 Docker</text>
+      <rect x="408" y="368" width="98" height="26" rx="13" fill="#111A29" stroke="#22314A"/>
+      <text x="422" y="385" fill="#9FB2CC">🩺 health</text>
+    </g>
+
+    <!-- stats card -->
+    <g transform="translate(764 96) rotate(-7 200 150)" filter="url(#shadow)">
+      <rect width="400" height="286" rx="22" fill="url(#card)" stroke="#2A3850"/>
+      <rect x="1" y="1" width="398" height="284" rx="21" stroke="#FFFFFF" stroke-opacity="0.04"/>
+
+      <!-- window dots -->
+      <circle cx="26" cy="24" r="4" fill="#F85149" fill-opacity="0.8"/>
+      <circle cx="40" cy="24" r="4" fill="#D29922" fill-opacity="0.8"/>
+      <circle cx="54" cy="24" r="4" fill="#3FB950" fill-opacity="0.8"/>
+      <text x="368" y="28" text-anchor="end" fill="#5D6D86" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700" letter-spacing="1.4">LIVE</text>
+      <circle cx="354" cy="24" r="3" fill="#3FB950"/>
+
+      <line x1="20" y1="44" x2="380" y2="44" stroke="#263248"/>
+
+      <!-- user -->
+      <circle cx="50" cy="76" r="17" fill="url(#mark)"/>
+      <text x="50" y="81" text-anchor="middle" fill="#0A0F18" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="800">A</text>
+      <text x="78" y="72" fill="#F1F5F9" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="700">alice</text>
+      <text x="78" y="89" fill="#6F819C" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11">leetcode.com/alice</text>
+      <rect x="318" y="63" width="62" height="24" rx="12" fill="#112A18" stroke="#235C33"/>
+      <text x="349" y="79" text-anchor="middle" fill="#7EE787" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700">LINKED</text>
+
+      <!-- headline number -->
+      <text x="24" y="128" fill="#6F819C" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700" letter-spacing="2">TOTAL SOLVED</text>
+      <text x="22" y="172" fill="#F8FAFC" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="800" letter-spacing="-1.5">542</text>
+      <text x="112" y="168" fill="#7EE787" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700">+18 this week</text>
+
+      <!-- sparkline -->
+      <path d="M230 168L252 150L270 158L290 132L310 140L332 112L354 120L376 92" stroke="#FFA116" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M230 168L252 150L270 158L290 132L310 140L332 112L354 120L376 92V175H230Z" fill="#FFA116" fill-opacity="0.08"/>
+      <circle cx="376" cy="92" r="4" fill="#FFC24B"/>
+
+      <!-- difficulty bars -->
+      <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+        <text x="24" y="210" fill="#7EE787" font-size="11" font-weight="700">Easy</text>
+        <rect x="72" y="201" width="240" height="9" rx="4.5" fill="#1C2637"/>
+        <rect x="72" y="201" width="196" height="9" rx="4.5" fill="url(#barEasy)"/>
+        <text x="376" y="210" text-anchor="end" fill="#C7D2E1" font-size="11" font-weight="700">212</text>
+
+        <text x="24" y="236" fill="#FFC24B" font-size="11" font-weight="700">Medium</text>
+        <rect x="72" y="227" width="240" height="9" rx="4.5" fill="#1C2637"/>
+        <rect x="72" y="227" width="142" height="9" rx="4.5" fill="url(#barMedium)"/>
+        <text x="376" y="236" text-anchor="end" fill="#C7D2E1" font-size="11" font-weight="700">380</text>
+
+        <text x="24" y="262" fill="#FF7B72" font-size="11" font-weight="700">Hard</text>
+        <rect x="72" y="253" width="240" height="9" rx="4.5" fill="#1C2637"/>
+        <rect x="72" y="253" width="48" height="9" rx="4.5" fill="url(#barHard)"/>
+        <text x="376" y="262" text-anchor="end" fill="#C7D2E1" font-size="11" font-weight="700">92</text>
+      </g>
+    </g>
+    <!-- floating chips -->
+    <g filter="url(#shadow)">
+      <g transform="translate(748 44) rotate(-4)">
+        <rect width="168" height="38" rx="19" fill="#1B1408" stroke="#5A3C0E"/>
+        <text x="16" y="24" fill="#FFC24B" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700">🔥 12-day streak</text>
+      </g>
+      <g transform="translate(1042 332) rotate(4)">
+        <rect width="182" height="38" rx="19" fill="#0B1B12" stroke="#1D4A2E"/>
+        <text x="16" y="24" fill="#7EE787" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700">🏆 Cohort rank #1</text>
+      </g>
+    </g>
+  </g>
+</svg>

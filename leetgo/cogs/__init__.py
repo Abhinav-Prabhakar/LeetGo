@@ -1,0 +1,1 @@
+"""LeetGo command cogs."""

@@ -1,6 +1,11 @@
 db.json
 storage.db
 leetgo.log
+data/
+logs/
+*.db
+*.db-wal
+*.db-shm
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,0 +1,98 @@
+<svg width="760" height="440" viewBox="0 0 760 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LeetGo stats card preview</title>
+  <desc id="desc">A Discord-style embed showing solved totals, difficulty bars, streak and contest rating.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="760" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080C15"/>
+      <stop offset="1" stop-color="#0E1626"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(590 70) rotate(130) scale(360 280)">
+      <stop stop-color="#FFA116" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFA116" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFC24B"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <linearGradient id="easy" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#3FB950"/><stop offset="1" stop-color="#7EE787"/></linearGradient>
+    <linearGradient id="medium" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D29922"/><stop offset="1" stop-color="#FFC24B"/></linearGradient>
+    <linearGradient id="hard" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F85149"/><stop offset="1" stop-color="#FF7B72"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#182235" stroke-opacity="0.55"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="760" height="440" rx="26" fill="url(#bg)"/>
+  <rect width="760" height="440" rx="26" fill="url(#grid)"/>
+  <rect width="760" height="440" rx="26" fill="url(#glow)"/>
+  <rect x="1" y="1" width="758" height="438" rx="25" stroke="#1E2A3D"/>
+
+  <text x="40" y="42" fill="#5E708A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700" letter-spacing="2.4">PRODUCT PREVIEW / 01</text>
+  <g transform="translate(628 30)">
+    <circle cx="0" cy="0" r="4" fill="#F85149" fill-opacity="0.8"/>
+    <circle cx="14" cy="0" r="4" fill="#D29922" fill-opacity="0.8"/>
+    <circle cx="28" cy="0" r="4" fill="#3FB950" fill-opacity="0.8"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="40" y="62" width="680" height="338" rx="18" fill="#23262D"/>
+    <rect x="40" y="62" width="5" height="338" rx="2.5" fill="url(#accent)"/>
+
+    <!-- author -->
+    <circle cx="86" cy="108" r="18" fill="url(#accent)"/>
+    <text x="86" y="114" text-anchor="middle" fill="#17130A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="800">A</text>
+    <text x="114" y="105" fill="#F2F3F5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700">alice</text>
+    <text x="114" y="121" fill="#9AA4B2" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11">LeetCode stats · linked 3 months ago</text>
+    <rect x="594" y="94" width="100" height="26" rx="13" fill="#15251B" stroke="#2B5A39"/>
+    <circle cx="610" cy="107" r="3.5" fill="#7EE787"/>
+    <text x="622" y="111" fill="#7EE787" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700">IN SYNC</text>
+
+    <text x="68" y="158" fill="#F2F3F5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800">Problem solving</text>
+
+    <!-- left big stat -->
+    <text x="68" y="212" fill="#6F7B8C" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">TOTAL SOLVED</text>
+    <text x="64" y="266" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="800" letter-spacing="-2">542</text>
+    <text x="184" y="240" fill="#7EE787" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700">+18</text>
+    <text x="184" y="256" fill="#7C8797" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10">this week</text>
+    <text x="68" y="292" fill="#9AA4B2" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11">18.1% of 2,990 problems</text>
+    <rect x="68" y="304" width="220" height="7" rx="3.5" fill="#171A20"/>
+    <rect x="68" y="304" width="40" height="7" rx="3.5" fill="url(#accent)"/>
+
+    <line x1="318" y1="188" x2="318" y2="318" stroke="#31353D"/>
+
+    <!-- right difficulty -->
+    <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+      <text x="346" y="202" fill="#7EE787" font-size="12" font-weight="700">Easy</text>
+      <text x="688" y="202" text-anchor="end" fill="#E6E8EB" font-size="12" font-weight="700">212<tspan fill="#7C8797" font-weight="500"> / 830</tspan></text>
+      <rect x="346" y="212" width="342" height="8" rx="4" fill="#171A20"/>
+      <rect x="346" y="212" width="252" height="8" rx="4" fill="url(#easy)"/>
+
+      <text x="346" y="244" fill="#FFC24B" font-size="12" font-weight="700">Medium</text>
+      <text x="688" y="244" text-anchor="end" fill="#E6E8EB" font-size="12" font-weight="700">238<tspan fill="#7C8797" font-weight="500"> / 1,540</tspan></text>
+      <rect x="346" y="254" width="342" height="8" rx="4" fill="#171A20"/>
+      <rect x="346" y="254" width="212" height="8" rx="4" fill="url(#medium)"/>
+
+      <text x="346" y="286" fill="#FF7B72" font-size="12" font-weight="700">Hard</text>
+      <text x="688" y="286" text-anchor="end" fill="#E6E8EB" font-size="12" font-weight="700">92<tspan fill="#7C8797" font-weight="500"> / 620</tspan></text>
+      <rect x="346" y="296" width="342" height="8" rx="4" fill="#171A20"/>
+      <rect x="346" y="296" width="96" height="8" rx="4" fill="url(#hard)"/>
+    </g>
+
+    <line x1="68" y1="334" x2="692" y2="334" stroke="#30343C"/>
+
+    <!-- footer stats -->
+    <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+      <text x="68" y="358" fill="#FFC24B" font-size="12" font-weight="700">🔥 12-day streak</text>
+      <text x="232" y="358" fill="#8CB4FF" font-size="12" font-weight="700">📈 Rank #12,345</text>
+      <text x="410" y="358" fill="#C7A6FF" font-size="12" font-weight="700">⚔️ Contest 1,800</text>
+      <text x="692" y="358" text-anchor="end" fill="#6F7B8C" font-size="10">Updated just now</text>
+    </g>
+
+    <text x="68" y="382" fill="#6F7B8C" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10">LeetGo · /stats</text>
+  </g>
+
+  <text x="720" y="424" text-anchor="end" fill="#46566D" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600">leetgo v3.0</text>
+</svg>
